@@ -21,6 +21,13 @@
 	*{
 		box-sizing: initial !important;
 	}
+	.wc-container{
+		display: table !important;
+    	width: 100% !important;
+	}
+	.wc-nav{
+		display: table-footer-group;
+	}
 	</style>
 </head>
 <body> 
@@ -33,9 +40,9 @@
 	  </div>
 </div>
 <div class="ui orange inverted compact vertical labeled icon menu inline-block v-top">
-  <a class="item">
-    <i class="gamepad icon"></i>
-    Games
+  <a class="item" href="home.html">
+    <i class="history icon"></i>
+    Historial
   </a>
   <a class="item">
     <i class="video camera icon"></i>
@@ -45,9 +52,9 @@
     <i class="video play icon"></i>
     Videos
   </a>
-	  <a class="item">
-    <i class="video play icon"></i>
-    Videos
+  <a class="item" href="calendar.cfm">
+    <i class="calendar icon"></i>
+    Reservas
   </a>
 </div>
 <div class="ui container inline-block">
